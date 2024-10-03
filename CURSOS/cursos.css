@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-image: url("paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    color: white;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background:rgba(69, 97, 53, 0.781) ;
+    color: #000000;
+}
+
+.titulo{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 40px;
+}
+.datos li{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.datos{
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.descripcion_html{
+    font-size: 25;
+    }
+
+.oferta{
+    width: 300px;
+    height: 40px;
+}
+
+.oferta button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color:  rgb(0, 0, 0);;
+    background-color:  rgb(69, 97, 53);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+.logo_html{
+  
+    width: 250px;
+    height: 200px;
+}
+.logo_css{
+    
+    width: 250px;
+    height: 200px;
+}
+.logo_js{
+  
+    width: 220px;
+    height: 180px;
+}
+
+.contenedores_fila_uno{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.html{
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 00px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 122, 26, 0);
+    align-items: center;
+   width: 250px;
+   height: 350px;
+   backdrop-filter: blur(7px);
+   cursor: pointer; 
+}
+
+.link_html{
+    text-align: center;
+ 
+}
+
+.css{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: rgba(0, 122, 26, 0);
+    width: 250px;
+    padding: 20px;
+    height: 350px;
+    backdrop-filter: blur(7px);
+    cursor: pointer; 
+}
+.link_css{
+    text-align: center;
+
+}
+
+.js{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 255, 55, 0);
+    margin-left: 50px;
+    width: 250px;
+    padding: 20px;
+    height: 350px;
+    backdrop-filter: blur(7px);
+    cursor: pointer; 
+}
+
+.descripcion_html{
+    color: rgb(255, 255, 255);
+}
+.floro{
+    color: rgb(255, 255, 255);
+}
+.precio{
+    color: rgb(255, 255, 255);
+}
+

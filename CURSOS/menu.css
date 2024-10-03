@@ -1,0 +1,259 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-image: url("paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    color: white;
+  
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background:rgba(69, 97, 53, 0.781) ;
+    color: #000000;
+}
+
+.pantalla{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: white;
+}
+
+.encabezado{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(69, 97, 53);
+    color: white;
+    position: relative;
+    margin: none;
+}
+.logo_de_empreza{
+   width: 400px;
+   padding: none;
+   margin: none;
+   position: absolute;
+   padding: 10px;
+}
+.direccion-menu{
+    color: white;
+    display: flex;
+    flex-grow: 1;
+}
+.encabezado a{
+    font-size: 30px;
+    flex-grow: 2;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.listas{
+    text-align: center center;
+  position: relative;
+    left: 40%;
+    font-size: 20px;
+    padding: 10px;
+    font-family:  'Gill Sans';
+}
+.list{
+    margin: 40px;
+    text-decoration: none;
+    font-family:  'Times New Roman', Times, serif;
+}
+.titulo{
+    padding: 40px;
+    margin: 50px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: chartreuse;
+}
+.parrafo--floreo  li{
+    padding: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
+}
+.parrafo--floreo{
+    margin: 80px;
+}
+.direcciones--botones{
+    width: 230px;
+    margin: 90px;
+    padding: 0px;
+    height: 0px;
+}
+.direcciones--botones button{
+    height: 70px;
+    width: 230px;
+    color: black;
+    background: rgb(69, 97, 53);
+    background-color: rgb(69, 97, 53);;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor_uno{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #435331dc;
+    border-radius: 10px;
+    color: black;
+    margin: 130px;
+}
+.contenedor_uno h1{
+    box-shadow: 20px;
+
+}
+.subtitulo_uno{
+    text-align: center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parrafo_uno{
+    margin: 20px;
+}
+.botom_uno{
+    text-align: center;
+}
+.botom_uno button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid  rgb(255, 255, 255);
+    background-color:  rgb(69, 97, 53);
+    background:  rgb(69, 97, 53);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.segundo_contenedor{
+    width: 400px;
+    height: 180px;
+    background-color: rgba(161, 161, 161, 0.849);
+    position: relative;
+    transform: translate(180%,-120%);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+.terser_titulo{
+    text-align: center;
+    font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.terser_parrafo{
+    text-align: center;
+}
+.code_beca{
+    width: 900px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-image: linear-gradient( #ffffff54,#7eaa0669,#ffffff67  );
+    transform: translate(20%,-40%);
+}
+.uno{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.como_accedo{
+    position: relative;
+    width: 300px;
+    height: 280px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 30px;
+    border-radius:30px ;
+    transform: translate(130%,-35%);
+}
+.code_beca button{
+    width: 180px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center center;
+    cursor: pointer;
+}
+.botom{
+    text-align: center;
+}
+.mas_info{
+    list-style: disc;
+    width: 300px;
+    left: -25%;
+    position: relative;
+}
+.redes_sociales{
+    display: flex;
+    margin: 20px;
+}
+.red{
+    margin: 10px;
+    background: rgba(241, 241, 241, 0);
+}
+
+.slider {
+   
+
+    height: 80px;
+    margin: auto;
+    position: relative;
+    width: 60%;
+    display: grid;
+    margin-left: 60%;
+    flex-grow: 1;
+}
+
+.slider_track{
+   
+    display: flex;
+    width: calc(80px *  6);
+    animation: scroll 40s linear infinite;
+    flex-grow: 1;
+
+}
+.slide{
+
+    height: 170px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+   
+}
+.imgs{
+   
+    width: 100%;
+    transition: transform 1s;
+    flex-grow: 9;
+    padding:10px;
+
+}
+@keyframes scroll {
+    0% {
+        transform: translatex(0);
+    
+    }
+    100% {
+        transform: translatex(calc(-250px * 3));
+    }
+}
+.contenedor_ocho{
+   background: rgba(255, 255, 255, 0.101);
+    cursor: pointer;
+    border: none;
+    height: 200px;
+    backdrop-filter: blur(4px);
+}
+
+
